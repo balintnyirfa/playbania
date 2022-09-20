@@ -2,6 +2,12 @@ Viccportál követelmény specifikáció
 
 1. Jelenlegi helyzet
 2. Vágyálomrendszer
+ 
+ - Precíz és bizalomgerjesztő, programozóknak tervezett igényes megjelenés
+ - Felhasználóbarát és praktikus weboldal fejlesztése
+ - Frissítés és karbantartás heti rendszerességgel
+ - Telefonos felületen is lévén bárhol és bármikor könnyen elérhető legyen.	
+ - Reszponzív felület: Minden felbontásban jól használható legyen az alkalmazás
 
 5. A rendszerre vonatkozó szabályok
  A web felület: html/css/javascript. A képek jpeg és png formátumúak lehetnek. 
