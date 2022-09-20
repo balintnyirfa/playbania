@@ -19,3 +19,10 @@ Az a célunk, hogy olyan viccportált hozzunk létre, ami informatikusok számá
 
 5. A rendszerre vonatkozó szabályok
  A web felület: html/css/javascript. A képek jpeg és png formátumúak lehetnek. 
+
+6. Követelménylista
+
+ - Könnyen üzemeltethető rendszer
+ - Reszponzív felület
+ - Adminisztrátor, regisztrált, vendég szerepkör kezelése
+ - Csak regisztrált felhasználó hozhat létre posztot, megtekinteni vendégként is meg lehet
