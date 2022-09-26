@@ -1,7 +1,7 @@
 Viccportál funkcionális specifikáció
 
 1. Bevezetés
-//eddigi ötletek, tervek összegzése, rövid bevezető
+
 A weboldalunk célja, hogy egy viccekkel teli portált nyújtsunk felhasználók felé. Felhasználóbarát megjelenítésre törekedünk és próbálunk a színekkel is úgy játszani, hogy jó érzést keltsen az emberekben.
 - regisztrációs felület megvalósítása
 - kártyaszerű elrendezés az oldalon
@@ -16,7 +16,14 @@ fog megtórtánni. A felhasználók adatbázisát a phpMyAdmin sofware segítég
 
 
 3. Használati esetek
-//funkciók, amiket a felhasználó (+ vendég) használhat majd
+
+Vendég:
+  -megtekintheti a főoldalt, a bejegyzéseket, de nincs jogosultsága létrehozni, amíg nem regisztrál
+ Felhasználó:
+  -megtekintheti a főoldalt, a bejegyzéseket
+  -létrehozhat bejegyzéseket, feltölthet képeket
+  -tud profilképet feltölteni, cserélni
+  -tud jelszót és emailt módosítani
 
 4. Képernyőtervek 
 
