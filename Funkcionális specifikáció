@@ -10,8 +10,10 @@ A weboldalunk célja, hogy egy viccekkel teli portált nyújtsunk felhasználók
 - külön-külön elérhető oldalak bejelentkezés előtt és után
 - törlés, létrehozás, módosítás a feltöltött viccekkel
 
-(2. Feltételek)
-//szerkesztő program
+2. Feltételek
+A weboldal feltétele, hogy html kódon alapuló weblapot kell szerkezteni. A kinézetett CSS programozási nyelv segítségével kell eléni, míg a funkciók a PHP segítégével fog
+fog megtórtánni. A felhasználók adatbázisát a phpMyAdmin sofware segítégével oldanánk meg. 
+
 
 3. Használati esetek
 //funkciók, amiket a felhasználó (+ vendég) használhat majd
