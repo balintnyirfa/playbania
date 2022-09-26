@@ -2,6 +2,13 @@ Viccportál funkcionális specifikáció
 
 1. Bevezetés
 //eddigi ötletek, tervek összegzése, rövid bevezető
+A weboldalunk célja, hogy egy viccekkel teli portált nyújtsunk felhasználók felé. Felhasználóbarát megjelenítésre törekedünk és próbálunk a színekkel is úgy játszani, hogy jó érzést keltsen az emberekben.
+- regisztrációs felület megvalósítása
+- kártyaszerű elrendezés az oldalon
+- képnézegető
+- profilmódosítás
+- külön-külön elérhető oldalak bejelentkezés előtt és után
+- törlés, létrehozás, módosítás a feltöltött viccekkel
 
 (2. Feltételek)
 //szerkesztő program
