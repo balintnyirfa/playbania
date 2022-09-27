@@ -25,7 +25,9 @@ Vendég:
   -tud profilképet feltölteni, cserélni
   -tud jelszót és emailt módosítani
 
-4. Képernyőtervek 
+4. Képernyőtervek
+Az oldalnak rendelkeznie kell egy cím sávval. Továbbá tartalmaznia kell egy menősávot ahol ki lehet választani hogy milyen kategóriát kíván a felhasználó igényei szerint.
+Harmadrészt, biztosítunk egy bejelentkezéspanelt és egy regisztrációs felületett is. Így lehet majd kiszürni, hogy mely felhasználók posztolhatnak az oldalon.
 
 5. Forgatókönyv(ek):
 //Kezdőlap, menüpontok ismertetése, mit hol lehet találni
