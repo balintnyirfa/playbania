@@ -30,7 +30,8 @@ Az oldalnak rendelkeznie kell egy cím sávval. Továbbá tartalmaznia kell egy 
 Harmadrészt, biztosítunk egy bejelentkezéspanelt és egy regisztrációs felületett is. Így lehet majd kiszürni, hogy mely felhasználók posztolhatnak az oldalon.
 
 5. Forgatókönyv(ek):
-//Kezdőlap, menüpontok ismertetése, mit hol lehet találni
-//mind 3 szerepkörre külön
+Főoldalon bejelentkezés nélkül az összes vicc megtekinthető. 
+Regisztráció után a bejelentkezett fiók hozzá tud adni vicceket. Tudja módosítani a fiókjának adatait.
+Az admin az összes felhasználót látja, és tud felhasználót törölni.
 
 6. Funkció-követelmény megfeleltetés
