@@ -35,9 +35,12 @@ Az alkalmazás webes platformra készült, de telefonon, tableten is működik. 
 7. Adatbázisterv
 
 8. Tesztterv
-  ● Nem szükséges telepítés, böngészőből minden eszközön futtatható.
+
+A teszt elsődleges célja: az eddig meglévő funkcióknak a különböző
+böngészőkkel való kompatibilitásának tesztelése.
 
 9. Telepítési terv
+  Nem szükséges telepítés, böngészőből minden eszközön futtatható.
 
 10. Karbantartási terv
   ● A weboldal frissítési jogát fenntartjuk.
