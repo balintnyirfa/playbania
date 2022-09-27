@@ -3,3 +3,33 @@ Viccportál rendszerterv
 1. A rendszer célja
 
 A rendszer célja, hogy létrehozzunk egy programozóknak szánt viccportált, amit bárki szabadon megtekinthet, de képekhez, bejegyzésekhez regisztráció szükséges. A regisztrált felhasználó tud feltölteni, módosítani profilképet, illetve email és jelszó módosításra is van lehetőség.
+
+2. Projekt terv
+
+3. Üzleti folyamatok modellje
+
+4. Követelmények
+
+5. Funkcionális terv
+
+6. Fizikai környezet
+
+Az alkalmazás webes platformra készült, de telefonon, tableten is működik. A weboldalhoz igénybe vételéhez csupán egy internetes böngészőre van szükségünk.
+
+  ● Van tűzfal a hálózaton és minden portot is engedélyez.
+  ● Nincsenek megvásárolt komponenseink
+  ● Fejlesztői eszközök:
+    - phpMyAdmin
+    - Visual Studio Code
+
+7. Adatbázisterv
+8. Implementációs terv
+
+9. Tesztterv
+
+10. Telepítési terv
+
+11. Karbantartási terv
+
+12. Elvégzett tesztek
+12.1 Hibás tesztek
