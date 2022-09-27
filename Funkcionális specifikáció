@@ -32,5 +32,3 @@ Harmadrészt, biztosítunk egy bejelentkezéspanelt és egy regisztrációs fel�
 Főoldalon bejelentkezés nélkül az összes vicc megtekinthető. 
 Regisztráció után a bejelentkezett fiók hozzá tud adni vicceket. Tudja módosítani a fiókjának adatait.
 Az admin az összes felhasználót látja, és tud felhasználót törölni.
-
-6. Funkció-követelmény megfeleltetés
