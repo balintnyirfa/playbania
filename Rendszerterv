@@ -38,6 +38,8 @@ Az alkalmazás webes platformra készült, de telefonon, tableten is működik. 
 
 A teszt elsődleges célja: az eddig meglévő funkcióknak a különböző
 böngészőkkel való kompatibilitásának tesztelése.
+  1.Teszt: Metódusok megfelelően működnek-e
+  2.Teszt: Különböző böngészőkkel való tesztelés (Firefox, Google Chrome).
 
 9. Telepítési terv
   Nem szükséges telepítés, böngészőből minden eszközön futtatható.
