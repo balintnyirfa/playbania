@@ -42,9 +42,12 @@ böngészőkkel való kompatibilitásának tesztelése.
 9. Telepítési terv
   Nem szükséges telepítés, böngészőből minden eszközön futtatható.
 
-10. Karbantartási terv
+10. Implementációs terv
+  A Webes felület főként HTML, CSS, és Javascript nyelven fog készülni.
+  Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítjük, és
+  úgy fogjuk egymáshoz csatolni a jobb átláthatóság érdekében 
+
+11. Karbantartási terv
   ● A weboldal frissítési jogát fenntartjuk.
   ● Az oldal helyes működésének heti rendszerességgel történő ellenőrzése.
 
-11. Elvégzett tesztek
-11.1 Hibás tesztek
