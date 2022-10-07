@@ -2,7 +2,9 @@ Viccportál követelmény specifikáció
 
 1. Jelenlegi helyzet
 
-Az a célunk, hogy olyan viccportált hozzunk létre, ami informatikusok számára szórakoztató tartalmat nyújt. A weboldal használatához (viccek feltöltéséhez) regisztráció szükséges, de vendégként is lehet böngészni. A felhasználók saját vicceket is tölthetnek fel. Emellett mások vicceihez is hozzáférnek, és el tudják olvasni. Nem csak szöveges, hanem kép formájában is tudnak vicceket feltölteni.
+Az a célunk, hogy olyan viccportált hozzunk létre, ami informatikusok számára szórakoztató tartalmat nyújt. A weboldal használatához (viccek feltöltéséhez) 
+regisztráció szükséges, de vendégként is lehet böngészni. A felhasználók saját vicceket is tölthetnek fel. Emellett mások vicceihez is hozzáférnek, és el tudják 
+olvasni. Nem csak szöveges, hanem kép formájában is tudnak vicceket feltölteni.
 
 2. Vágyálomrendszer
  
@@ -33,3 +35,4 @@ Az a célunk, hogy olyan viccportált hozzunk létre, ami informatikusok számá
  - Reszponzív felület
  - Adminisztrátor, regisztrált, vendég szerepkör kezelése
  - Csak regisztrált felhasználó hozhat létre posztot, megtekinteni vendégként is meg lehet
+ - Jelszó, email módosításának lehetősége
