@@ -2,24 +2,28 @@ Viccportál rendszerterv
 
 1. A rendszer célja
 
-A rendszer célja, hogy létrehozzunk egy programozóknak szánt viccportált, amit bárki szabadon megtekinthet, de képekhez, bejegyzésekhez regisztráció szükséges. A regisztrált felhasználó tud feltölteni, módosítani profilképet, illetve email és jelszó módosításra is van lehetőség.
+A rendszer célja, hogy létrehozzunk egy programozóknak szánt viccportált, amit bárki szabadon megtekinthet, de képekhez, bejegyzésekhez regisztráció szükséges. 
+A regisztrált felhasználó tud feltölteni, módosítani profilképet, illetve email és jelszó módosításra is van lehetőség.
 
 2. Projekt terv
-A projektet weblapon valósítjuk meg, melynek van egyaránt frontend és backend része. Az egyes feladatokat többségében külön emberek végzik. A frontend fejlesztésére HTML-t és CSS alkalmazunk.
+A projektet weblapon valósítjuk meg, melynek van egyaránt frontend és backend része. Az egyes feladatokat többségében külön emberek végzik. 
+A frontend fejlesztésére HTML-t és CSS alkalmazunk.
 
   ●A frontend fejlesztők célja hogy egy könnyen átlátható, igényes, felhasználóbarát felületet hozzanak létre.
-  ●A backend fejlesztők feladata, a háttérben zajló folyamatok leprogramozása, JavaScript kód megírása, a program helyes működésének biztosítása, és az eredmény kiértékelése.
+  ●A backend fejlesztők feladata, a háttérben zajló folyamatok leprogramozása, JavaScript kód megírása, a program helyes működésének biztosítása, 
+  és az eredmény kiértékelése.
 
 3. Üzleti folyamatok modellje
 
 
 4. Követelmények
-A weboldal létrehozásához HTML/CSS illetve JavaScriptet és PHP-t használtunk. A felépítés és dizájnolás HTML és CSS implementálásával történik. Az oldal teljes értékű felhasználására elegendő egy egyszerű internetes böngészőt indítanunk.
+A weboldal létrehozásához HTML/CSS illetve JavaScriptet és PHP-t használtunk. A felépítés és dizájnolás HTML és CSS implementálásával történik. Az oldal teljes 
+értékű felhasználására elegendő egy egyszerű internetes böngészőt indítanunk.
 
 5. Funkcionális terv
 Rendszerszereplők:
   ● Admin: Felhasználók törlése, posztok törlése, látja a felhasználók listáját
-  ● Felhasználó: posztolhat, bejelntkezés, kijentkezés, saját adatok megtekintése(email, kép, név)
+  ● Felhasználó: posztolhat, bejelentkezés, kijentkezés, saját adatok megtekintése(email, kép, név)
   ● Vendég: megtekintheti a posztokat
 
 6. Fizikai környezet
