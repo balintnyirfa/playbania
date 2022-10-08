@@ -1,5 +1,5 @@
 <?php
-    // Header
+    include_once "./header.php";
 ?>
 
 <div>
@@ -11,5 +11,5 @@
 </div>
 
 <?php
-    // Footer
+    include_once "./footer.php";
 ?>
