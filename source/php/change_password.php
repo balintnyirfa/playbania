@@ -1,5 +1,5 @@
 <?php
-session_start();
+//session_start();
 ?>
 <!DOCTYPE html>
 <html lang="hu">
@@ -8,13 +8,14 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jelszóváltoztatás</title>
+    <link rel="stylesheet" href="style.css"/>
     
 </head>
 <body>
     <?php
     require_once "connect.php";
     require_once "Update.php";
-    #require_once "header.php";
+    require_once "header.php";
 
     if(isset($_SESSION["id"])){
         echo 
@@ -22,7 +23,8 @@ session_start();
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Profil
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="changepasswd.php">Jelszóváltoztatás</a></li>
+          <li><a href="change_password.php">Jelszóváltoztatás</a></li>
+          <li><a href="change_email.php">Emailváltoztatás</a></li>
           <li><a href="logout.php">Kijelentkezés<i class="glyphicon glyphicon-log-out"></i></a></li>
         </ul>
         </li>
@@ -30,13 +32,13 @@ session_start();
     }
 
     if(isset($_SESSION['id'])){
-      echo '
-      <div class="login">
+      echo
+      '<div class="login" style="text-align:center; margin-top: 60px; font-size: larger;">
         <form name="changepasswd" method="POST" action="change_password.php">
             <p>Új jelszó:</p> <input type="password" name="password" required><br>
-		    <p>Új jelszó ismét:</p> <input type="password" name="password2" required><br>
+		        <p>Új jelszó ismét:</p> <input type="password" name="password2" required><br>
             <br>
-            <input type="submit" value="Jelszóváltoztatás">
+            <input type="submit" name="submit" style="background-color: rgb(175, 200, 175); height:30px; width:130px; cursor:pointer" value="Jelszóváltoztatás">
         </form>
         </div>
       ';
@@ -45,6 +47,8 @@ session_start();
         }
       }
       else echo 'Nincs jogosultságod az oldal megtekintéséhez.';
+
+      require_once "footer.php";
     ?>
 </body>
 </html>
