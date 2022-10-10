@@ -1,3 +1,3 @@
-    <!-- JS, Bootstrap -->
+<!--link rel="stylesheet" href="style.css"/-->
 </body>
 </html>
