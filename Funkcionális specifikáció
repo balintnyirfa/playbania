@@ -9,7 +9,7 @@ játszani, hogy jó érzést keltsen az emberekben.
 - képnézegető
 - profilmódosítás
 - külön-külön elérhető oldalak bejelentkezés előtt és után
-- törlés, létrehozás, módosítás a feltöltött viccekkel
+- törlés, létrehozás a feltöltött viccekkel
 
 2. Feltételek
 A weboldal feltétele, hogy html kódon alapuló weblapot kell szerkeszteni. A kinézetett CSS programozási nyelv segítségével kell elérni, míg a funkciók a PHP 
@@ -23,10 +23,7 @@ Vendég:
 Felhasználó:
   -megtekintheti a főoldalt, a bejegyzéseket
   -létrehozhat bejegyzéseket, feltölthet képeket
-  -tud profilképet feltölteni, cserélni
   -tud jelszót és emailt módosítani
-Admin:
-  -kitudja listázni a felhasználókat, törölni tud közülük
 
 4. Képernyőtervek
 Az oldalnak rendelkeznie kell egy cím sávval. Továbbá tartalmaznia kell egy menősávot ahol ki lehet választani hogy milyen kategóriát kíván a felhasználó igényei 
@@ -35,4 +32,3 @@ szerint. Harmadrészt, biztosítunk egy bejelentkezéspanelt és egy regisztrác
 5. Forgatókönyv(ek):
 Főoldalon bejelentkezés nélkül az összes vicc megtekinthető. 
 Regisztráció után a bejelentkezett fiók hozzá tud adni vicceket. Tudja módosítani a fiókjának adatait.
-Az admin az összes felhasználót látja, és tud felhasználót törölni.
