@@ -3,7 +3,7 @@ Viccportál rendszerterv
 1. A rendszer célja
 
 A rendszer célja, hogy létrehozzunk egy programozóknak szánt viccportált, amit bárki szabadon megtekinthet, de képekhez, bejegyzésekhez regisztráció szükséges. 
-A regisztrált felhasználó tud feltölteni, módosítani profilképet, illetve email és jelszó módosításra is van lehetőség.
+A regisztrált felhasználó tud feltölteni,, illetve email és jelszó módosításra is van lehetőség.
 
 2. Projekt terv
 A projektet weblapon valósítjuk meg, melynek van egyaránt frontend és backend része. Az egyes feladatokat többségében külön emberek végzik. 
@@ -22,8 +22,7 @@ A weboldal létrehozásához HTML/CSS illetve JavaScriptet és PHP-t használtun
 
 5. Funkcionális terv
 Rendszerszereplők:
-  ● Admin: Felhasználók törlése, posztok törlése, látja a felhasználók listáját
-  ● Felhasználó: posztolhat, bejelentkezés, kijentkezés, saját adatok megtekintése(email, kép, név)
+  ● Felhasználó: posztolhat, bejelentkezés, kijelentkezés, saját adatok megtekintése(email, név)
   ● Vendég: megtekintheti a posztokat
 
 6. Fizikai környezet
@@ -36,24 +35,22 @@ Az alkalmazás webes platformra készült, de telefonon, tableten is működik. 
     - phpMyAdmin
     - Visual Studio Code
 
-7. Adatbázisterv
-
-8. Tesztterv
+7. Tesztterv
 
 A teszt elsődleges célja: az eddig meglévő funkcióknak a különböző
 böngészőkkel való kompatibilitásának tesztelése.
   1.Teszt: Metódusok megfelelően működnek-e
   2.Teszt: Különböző böngészőkkel való tesztelés (Firefox, Google Chrome).
 
-9. Telepítési terv
+8. Telepítési terv
   Nem szükséges telepítés, böngészőből minden eszközön futtatható.
 
-10. Implementációs terv
+9. Implementációs terv
   A Webes felület főként HTML, CSS, és Javascript nyelven fog készülni.
   Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítjük, és
   úgy fogjuk egymáshoz csatolni a jobb átláthatóság érdekében 
 
-11. Karbantartási terv
+10. Karbantartási terv
   ● A weboldal frissítési jogát fenntartjuk.
   ● Az oldal helyes működésének heti rendszerességgel történő ellenőrzése.
 
