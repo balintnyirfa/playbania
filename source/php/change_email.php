@@ -23,7 +23,7 @@
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="change_password.php">Jelszóváltoztatás</a></li>
-          <li><a href="changeemail.php">Emailváltoztatás</a></li>
+          <li><a href="change_email.php">Emailváltoztatás</a></li>
           <li><a href="logout.php">Kijelentkezés<i class="glyphicon glyphicon-log-out"></i></a></li>
         </ul>
         </li>
