@@ -1,3 +1,7 @@
+<?php
+    session_start();
+    require_once "connect.php";
+?>
 <!DOCTYPE html>
 <html lang="hu">
 <head>
@@ -20,7 +24,7 @@
   <a href="posts.php">Bejegyzések</a>
   <a href="upload.php">Feltöltés</a>
   <?php
-  /*if(isset($_SESSION["id"])){ */
+  if(isset($_SESSION["id"])){ 
     echo '
     <li class="dropdown" style="float:right">
     <a href="javascript:void(0)" class="dropbtn">Profil</a>
@@ -31,11 +35,7 @@
     </div>
     </li>
     ';
-  /*  }  */
+    }  
   ?>
-  
-  <!--div class="column"--> 
-    
-  <!--/div-->
   
 </div>
