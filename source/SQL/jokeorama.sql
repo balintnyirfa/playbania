@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2022. Okt 04. 13:11
--- Kiszolgáló verziója: 10.4.24-MariaDB
--- PHP verzió: 8.1.6
+-- Létrehozás ideje: 2022. Okt 10. 23:39
+-- Kiszolgáló verziója: 10.4.22-MariaDB
+-- PHP verzió: 8.1.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -20,16 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Adatbázis: `jokeorama`
 --
-
--- --------------------------------------------------------
-
---
--- Tábla szerkezet ehhez a táblához `admin`
---
-
-CREATE TABLE `admin` (
-  `adminId` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -54,20 +44,12 @@ CREATE TABLE `users` (
   `id` int(11) NOT NULL,
   `email` varchar(100) NOT NULL,
   `username` varchar(100) NOT NULL,
-  `password` varchar(200) NOT NULL,
-  `title` varchar(50) NOT NULL,
-  `pfp` varchar(150) NOT NULL
+  `password` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Indexek a kiírt táblákhoz
 --
-
---
--- A tábla indexei `admin`
---
-ALTER TABLE `admin`
-  ADD KEY `FK_adminId` (`adminId`);
 
 --
 -- A tábla indexei `jokes`
@@ -90,29 +72,23 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT a táblához `jokes`
 --
 ALTER TABLE `jokes`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT a táblához `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- Megkötések a kiírt táblákhoz
 --
 
 --
--- Megkötések a táblához `admin`
---
-ALTER TABLE `admin`
-  ADD CONSTRAINT `FK_adminId` FOREIGN KEY (`adminId`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
-
---
 -- Megkötések a táblához `jokes`
 --
 ALTER TABLE `jokes`
-  ADD CONSTRAINT `FK_userId` FOREIGN KEY (`userId`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+  ADD CONSTRAINT `FK_userId` FOREIGN KEY (`userId`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
