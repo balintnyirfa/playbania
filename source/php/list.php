@@ -1,9 +1,0 @@
-<?php
-    // Header
-?>
-
-
-
-<?php
-    // Footer
-?>
